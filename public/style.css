@@ -1,0 +1,54 @@
+.bees {
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bee {
+    width: 200px;
+    border: 2px solid lightblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+.bee.selected {
+    border-color: red;
+}
+
+.bee img{
+    width: 200px;
+}
+
+.bee.dead img {
+    filter: grayscale(100%);
+}
+
+.bee .title {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.bee .life-span {
+    color: red;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.bee {
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-size: 20px;
+    padding: 30px 100px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+}
